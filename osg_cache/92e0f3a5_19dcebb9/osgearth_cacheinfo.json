@@ -1,0 +1,25 @@
+{
+   "cache_profile" : {
+      "num_tiles_high_at_lod_0" : "1",
+      "num_tiles_wide_at_lod_0" : "1",
+      "srs" : "+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "vdatum" : {},
+      "xmax" : "458591.13334636506625",
+      "xmin" : "420246.23063342575915",
+      "ymax" : "4654384.8787039024755",
+      "ymin" : "4607929.5958755528554"
+   },
+   "cachebin_id" : "92e0f3a5_19dcebb9",
+   "source_driver" : "yahoo",
+   "source_name" : "yahoo aerial",
+   "source_profile" : {
+      "num_tiles_high_at_lod_0" : "2",
+      "num_tiles_wide_at_lod_0" : "2",
+      "srs" : "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +towgs84=0,0,0,0,0,0,0 +wktext +no_defs",
+      "vdatum" : {},
+      "xmax" : "20037508.342789251357",
+      "xmin" : "-20037508.342789251357",
+      "ymax" : "20037508.342789251357",
+      "ymin" : "-20037508.342789251357"
+   }
+}
