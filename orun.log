@@ -1,6 +1,6 @@
 omegalib data search paths:
-::: /Users/mvictoras/projects/batCave
-::: /Users/mvictoras/projects/omegalib-new/core
+::: /data/evl/victoras/projects/batCave
+::: /data/evl/victoras/omegalib5/core
 omegalib application config lookup:
 ::: trying orun/orun.cfg
 ::: not found, trying orun.cfg
@@ -9,30 +9,22 @@ omegalib application config lookup:
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> OMEGALIB BOOT
 SystemManager::setup
 Opened config file: default.cfg
-SystemManager::setup: systemConfig = system/desktop.cfg
-Opened config file: system/desktop.cfg
+SystemManager::setup: systemConfig = evl/lyra-xinerama.cfg
+Opened config file: evl/lyra-xinerama.cfg
 SharedDataServices::registerObject: queuing interp for registration
 !!! WARNING: could not find a local omegalib python installation. 
 Omegalib will attempt to use the system python interpreter (if available)
 PythonInterpreter::addPythonPath: ./
-!!! OSX NOT IMPLEMENTED: (osystem.cpp) ogetexecpath
-!!! Imlement using _NSGetExecutablePath()
-PythonInterpreter::addPythonPath: 
-PythonInterpreter::addPythonPath: /Users/mvictoras/projects/omegalib-new/core/modules
+PythonInterpreter::addPythonPath: /data/evl/victoras/omegalib5/build/bin/
+PythonInterpreter::addPythonPath: /data/evl/victoras/omegalib5/core/modules
 PythonInterpreter: starting interactive shell thread.
 omegaPythonApiInit()
 Python Interpreter initialized.
 SystemManager::setupDisplaySystem: type = Equalizer
-Bezel size: 0 0
-canvas pixel size: 854 480
+Bezel size: 0.005 0.005
+canvas pixel size: 24588 3072
 ModuleServices::addModule: OmegaViewer
-Service added: MouseService
-Service added: KeyboardService
-Service added: ViewRayService
-Initializing mission control server on port 22500
-ModuleServices::addModule: MissionControlClient
-TcpConnection::handleConnected (id=0)
-Mission control connection open (id=0)
+Service added: NetService
 ServiceManager::initialize
 Event buffer allocated. Max events: 512
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< OMEGALIB BOOT
@@ -44,22 +36,84 @@ Event buffer allocated. Max events: 512
 ModuleServices::addModule: EventSharingModule
 Console: adding log listener
 ModuleServices::addModule: console
-Camera controller: keyboardmouse
+Camera controller: wand
 ModuleServices::addModule: CameraController
-Engine: Running with sound disabled.
+SoundManager: Connected to server, will send messages to xenakis.evl.uic.edu on port 57120
+Engine: Checking if sound server is ready at xenakis.evl.uic.edu on port 57120... (Waiting for 5 seconds)
+Engine: Failed to start sound server. Sound disabled.
 Death switch timeout: 240 seconds
-[EQ] NodeImpl::NodeImpl
-[EQ] NodeImpl::configInit cf8b05fb747a8cd1:7c0beae6754a1290
-@Renderer::Initialize: id = 0
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DISPLAY INITIALIZATION
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> APPLICATION LOOP
-TcpConnection::doHandleConnected
-TcpConnection::handleConnected (id=0)
-Mission control connection open (id=0)
-Connection 0 name changed to client
-Engine::refreshPointer: creating pointer 0
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
 !!! EventSharingModule::share: server not initialized yet. Ignoring call.
 Creating death switch thread
 omegaToolkitPythonApiInit()
@@ -69,7 +123,10 @@ ModuleServices::addModule: MenuManager
 ModuleServices::addModule: UiModule
 UiModule initializing...
 UiModule initialization OK
-Renderer(0): adding render pass UiRenderPass
+Attemped to loaded buffer ID 10, but not connected to a sound server!
+Attemped to loaded buffer ID 11, but not connected to a sound server!
+Attemped to loaded buffer ID 12, but not connected to a sound server!
+Attemped to loaded buffer ID 13, but not connected to a sound server!
 
 
 
@@ -87,15 +144,10 @@ Welcome to orun!
 
 
 
-Renderer(0): adding render pass console
-Creating Font fonts/segoeuimod.ttf 14
 PythonInterpreter::runFile: running chicagoflat.py
-Attemped to loaded buffer ID 10, but not connected to a sound server!
-!!! OSX NOT IMPLEMENTED: (osystem.cpp) ogetexecpath
-!!! Imlement using _NSGetExecutablePath()
-OSG Plugin Path(s): osg/osgPlugins-3.3.0:osg
+Attemped to loaded buffer ID 14, but not connected to a sound server!
+OSG Plugin Path(s): /data/evl/victoras/omegalib5/build/bin/osg/osgPlugins-3.3.0:/data/evl/victoras/omegalib5/build/bin/osg
 ModuleServices::addModule: OsgModule
-Renderer(0): adding render pass OsgRenderPass
 ModuleServices::addModule: SceneManager
 ModelLoaderThread: start
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
@@ -104,7 +156,13 @@ Optimizing model
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
-Loading model chicago_flat.map.earth
+Loading model chicago_yahoo.earth
+Optimizing model
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
+Loading model absoluteCrimes.kmz
+Adding mapNode option
 Optimizing model
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
 
@@ -115,36 +173,28 @@ Optimizing model
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
-Loading model chicago_yahoo.earth
+Loading model areaLess.kmz
+Adding mapNode option
 Optimizing model
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< APPLICATION LOOP
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
+Loading model areaMore.kmz
+Adding mapNode option
+Optimizing model
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
+Loading model schools.kml
+Adding mapNode option
+Optimizing model
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> OMEGALIB SHUTDOWN
-Mission control connection closed (id=0)
-!!! TcpConnection::close (id=1): connection was not open
-ModuleServices::disposeNonCoreModules
-MenuManager::dispose: cleaning up 2 menus
-UiModule::dispose
-Engine: removing render pass UiRenderPass
-Engine: removing render pass OsgRenderPass
-ModelLoaderThread: shutdown
-SceneManager::unload: emptying load queue (0 queued items)
-SceneManager::unload: releasing 4 models
-SceneManager::unload: releasing 0 programs
-SceneManager::unload: releasing 1 programs
-~EngineModule SceneManager
-~Menu Main Menu
-~Menu Submenu
-Engine::dispose
-ModuleServices::disposeAll
-!!! TcpConnection:handleError (id=0): Connection reset by peer
-EventSharingModule::dispose
-~EngineModule OmegaViewer
-~EngineModule EventSharingModule
-~Console: removing log listener
-~EngineModule console
-~EngineModule CameraController
-Engine::dispose: cleaning up 0 cameras
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
+Loading model seriousCrimesPerTract.kml
+Adding mapNode option
+Optimizing model
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
+
+EqualizerDisplaySystem::killCluster
+number of nodes: 37
